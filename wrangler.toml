@@ -6,7 +6,7 @@ minify = true
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = ""
+id = "b9c51e70f8104f7c9456c8212aa58454"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -15,6 +15,6 @@ command = "cargo install worker-build && worker-build --release"
 build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
-UUID = ""
+UUID = "ecc8ea1d-5983-4a45-a076-a3fb03956d26"
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/index.html"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/sub.html"
